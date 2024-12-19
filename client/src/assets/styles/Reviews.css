@@ -1,0 +1,100 @@
+#Reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 220px;
+
+  width: 100%;
+}
+  #Reviews__header {
+    font-family: var(--kly);
+    font-size: 105px;
+    font-weight: 100;
+
+    max-width: max-content;
+    width: 100%;
+
+    margin-bottom: 50px;
+
+    color: white;
+
+    filter: drop-shadow(var(--text_s));
+  }
+
+  #Reviews__slider {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    width: 100%;
+
+    overflow-x: hidden;
+  }
+    #slider__slides {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      transition: transform 2s ease
+    }
+      .slides__two-slide {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        
+        gap: 6.510%;
+
+        width: 100vw;
+      }
+
+    .slider__button {
+      position: absolute;
+
+      width: 20px;
+      height: 35px;
+
+      z-index: 5;
+
+      cursor: pointer;
+    }
+      #slider__btn-left {
+        left: 5.104%;
+
+        z-index: 3;
+
+        border: none;
+
+        background: none;
+        background-image: url("../multimedia/images/arrows/left.svg");
+        background-size: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+        #slider__btn-left:hover {
+          background-image: url("../multimedia/images/arrows/left-hover.svg");
+          transition: background-image 0.2s ease;
+        }
+
+      #slider__btn-right {
+        right: 5.104%;
+
+        z-index: 3;
+
+        border: none;
+
+        background: none;
+        background-image: url("../multimedia/images/arrows/right.svg");
+        background-size: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+        #slider__btn-right:hover {
+          background-image: url("../multimedia/images/arrows/right-hover.svg");
+          transition: background-image 0.2s ease;
+        }

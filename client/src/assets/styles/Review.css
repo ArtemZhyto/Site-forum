@@ -1,0 +1,102 @@
+.Review {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+
+  padding: 50px;
+
+  background-color: var(--block);
+
+  border-radius: 50px;
+
+  max-width: 525px;
+  width: 100%;
+
+  filter: drop-shadow(var(--block_s));
+}
+  .Review__icon_and_text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+  }
+    .Review__icon_text {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      margin-bottom: 25px;
+
+      width: max-content;
+    }
+      .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100px;
+        height: 100px;
+
+        background-color: white;
+
+        border-radius: 100%;
+      }
+        .icon__img {
+          position: relative;
+          top: 1.5px;
+          left: 1.5px;
+          
+          cursor: none;
+          pointer-events: none;
+        }
+      .Review__name {
+        font-family: var(--klu);
+        font-size: 34px;
+        font-weight: 100;
+      
+        margin-left: 20px;
+
+        color: white;
+
+        width: max-content;
+      }
+    .Review__text {
+      font-family: var(--klu);
+      font-size: 30px;
+      font-weight: 100;
+      color: white;
+
+      margin-bottom: 12.5px;
+
+      max-width: 425px;
+      width: 100%;
+      height: 245px;
+      
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    
+    .Review__grade {
+      font-family: var(--kly);
+      font-size: 30px;
+      font-weight: 100;
+
+      text-align: right;
+
+      width: 100%;
+    }
+      .red {
+        color: var(--red);
+      }
+
+      .blue {
+        color: var(--ssp_text);
+      }
+
+      .green {
+        color: var(--sp_text);
+      }

@@ -1,0 +1,120 @@
+#Version {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+
+  width: 525px;
+  min-height: 250px;
+  height: 100%;
+
+  padding: 25px;
+
+  border-radius: 50px;
+
+  background-color: var(--block);
+}
+  .first-version {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+
+    width: 525px;
+    height: 250px;
+  
+    padding: 25px;
+  
+    border-radius: 50px;
+  
+    background-color: var(--block);
+  }
+
+  #Version__main-text {
+    font-family: var(--stg);
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+  }
+  
+  #Version__first {
+    font-family: var(--kly);
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+
+    margin-top: 47.5px;
+  }
+
+  #Version__info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 7.5px;
+  }
+    #Version__add {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+      #add__main-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    #Version__debug {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+      #debug__main-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+        #Version__circle {
+          width: 12.5px;
+          height: 12.5px;
+
+          margin-right: 7.5px;
+
+          border-radius: 100%;
+
+          background-color: var(--sp_text);
+        }
+
+        #Version__text {
+          position: relative;
+          top: 1px;
+
+          font-family: var(--kly);
+          font-size: 30px;
+          font-weight: 100;
+          color: white;
+        }
+          #Version__second-text {
+            position: relative;
+            top: -5px;
+
+            text-align: center;
+
+            font-family: var(--klu);
+            font-size: 28px;
+            font-weight: 100;
+            color: white;
+
+            max-width: 400px;
+            width: 100%;
+          }

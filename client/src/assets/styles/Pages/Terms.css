@@ -1,0 +1,69 @@
+#Terms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+  #Terms__head {
+    font-family: var(--kly);
+    font-size: 105px;
+
+    width: 50.282%;
+
+    text-align: center;
+
+    color: white;
+    
+    filter: drop-shadow(var(--text_s));
+  }
+
+  #Terms__text {    
+    padding: 0 5.104%;
+  }
+    ol, li {
+      font-family: var(--klu);
+      font-size: 36px;
+
+      list-style-type: none;
+
+      max-width: max-content;
+      
+      color: white;
+    }
+      .li__margin {
+        margin-left: 50px;
+      }
+      
+      .li__head {
+        font-family: var(--kly);
+
+        color: var(--sp_text);
+      }
+    #href {
+      background-image: linear-gradient(var(--dssp_text), var(--dssp_text));
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0 2px;
+
+      color: var(--ssp_text);
+
+      text-decoration: none;
+    }
+      #href:visited {
+        color: var(--ssp_text);
+      }
+
+      #href:hover {
+        background-size: 100% 2px;
+        color: var(--dssp_text);
+
+        transition: background-size 0.25s ease, color 0.25s ease;
+      }
+    #href-text {
+      color: var(--ssp_text);
+
+      text-decoration: none;
+    }

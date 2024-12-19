@@ -1,0 +1,210 @@
+#Leave_Review {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 240px;
+}
+  #L_R__img {
+    max-width: 818px;
+    width: 100%;
+
+    filter: drop-shadow(var(--back_s));
+
+    user-select: none;
+    pointer-events: none;
+  }
+
+  #L_R__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 9.740%;
+  }
+    #content__header {
+      font-family: var(--kly);
+      font-size: 105px;
+      font-weight: 100;
+      color: white;
+
+      max-width: max-content;
+      width: 100%;
+
+      filter: drop-shadow(var(--text_s));
+    }
+
+    #content__second {
+      font-family: var(--klu);
+      font-size: 30px;
+      font-weight: 100;
+      color: white;
+
+      margin-bottom: 25px;
+    }
+    
+    #content__create {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      border-radius: 50px;
+
+      padding: 50px;
+
+      max-width: 600px;
+      width: 100%;
+      height: 600px;
+
+      background-color: var(--block);
+      
+      filter: drop-shadow(var(--block_s));
+    }
+      #create__deskr {
+        position: relative;
+        
+        width: 100%;
+        height: 100%;
+      }
+        #deskr__textarea {
+          outline: none;
+          border: 1px rgba(255, 255, 255, 0.25) solid;
+          border-radius: 25px 25px 0px 0px;
+          border-bottom: none;
+
+          width: 100%;
+          height: 88%;
+
+          padding: 20px;
+
+          font-family: var(--kly);
+          font-size: 23px;
+          font-weight: 100;
+          color: white;
+
+          background: none;
+
+          resize: none;
+        }
+          #create__textarea::placeholder {
+            font-family: var(--klu);
+            font-size: 30px;
+            font-weight: 100;
+            color: var(--gr);
+          }
+        #deskr__panel {
+          position: absolute;
+          right: 0px;
+          bottom: 0px;
+
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: end;
+          align-items: center;
+
+          width: 100%;
+
+          border-radius: 0px 0px 25px 25px;
+          border: 1px rgba(255, 255, 255, 0.25) solid;
+          border-top: none;
+
+          padding: 15px;
+
+          background-color: var(--block);
+        }
+
+        #deskr__words {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+        }
+          #words__num {
+            font-family: var(--klu);
+            font-size: 30px;
+            font-weight: 100;
+          }
+            .words__num-red {
+              color: var(--red);
+            }
+
+            .words__num-green {
+              color: var(--sp_text);
+            }
+
+          #words__max-num {
+            font-family: var(--klu);
+            font-size: 30px;
+            font-weight: 100;
+            color: white;
+          }
+        #deskr__grade {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+
+          margin-top: 30px;
+          margin-bottom: 25px;
+        }
+          #grade__header {
+            font-family: var(--klu);
+            font-size: 28px;
+            font-weight: 100;
+            color: white;
+
+            margin-right: 10px;
+          }
+
+          #grade__btns {
+            position: relative;
+            top: 1px;
+            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            gap: 15px;
+          }
+            .grade__btn {
+              border: none;
+              background: none;
+              
+              font-family: var(--stg);
+              font-size: 32px;
+              font-weight: 100;
+              
+              cursor: pointer;
+
+              color: white;
+            }
+              #grade_btn1:hover, #grade_btn2:hover, #grade_btn3:hover, #grade_btn4:hover, #grade_btn5:hover, #grade_btn6:hover {
+                color: var(--red);
+                transition: color 0.3s ease;
+              }
+              
+              #grade_btn7:hover, #grade_btn8:hover, #grade_btn9:hover, #grade_btn10:hover {
+                color: var(--ssp_text);
+                transition: color 0.3s ease;
+              }
+              
+              #grade_btn11:hover {
+                color: var(--sp_text);
+                transition: color 0.3s ease;
+              }
+              
+              .red {
+                color: var(--red);
+              }
+              
+              .blue {
+                color: var(--ssp_text);
+              }
+              
+              .green {
+                color: var(--sp_text);
+              }

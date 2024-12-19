@@ -1,0 +1,130 @@
+{
+  "Menu": {
+    "nav": {
+      "profile": "Profile",
+      "messages": "Messages",
+      "saves": "Saved",
+      "updates": "Updates",
+      "about_us": "About Us",
+      "ask": "Ask a Question",
+      "prizes": "Prizes"
+    },
+
+    "search": {
+      "area__input__placeholder": "Find...",
+      "area__btn": "Search",
+      "help1": {
+        "help__main": "something",
+        "help__second": " - search for a question"
+      },
+      "help2": {
+        "help__main": "*something*",
+        "help__second": " - search for a user"
+      }
+    },
+
+    "reg_and_log": {
+      "regist": "Registration",
+      "login": "Login"
+    }
+  },
+
+  "Error_404": {
+    "text_main": "Error",
+    "text_second": "Try going back and repeating the action"
+  },
+
+  "Error_504": {
+    "text_main": "Error",
+    "text_second": "Server is not responding"
+  },
+
+  "Banned": {
+    "text_main": "You",
+    "text_second": "are banned",
+    "text_third": "You have violated community rules!"
+  },
+
+  "Oops": {
+    "text_main": "Oops!",
+    "text_second": "No results were found for your request"
+  },
+
+  "Messages": {
+    "header": "Messages",
+    "no_messages": "You have no unread messages",
+    "Message": {
+      "text1": "You have completed the task! Claim your reward",
+      "text2": "Your question has been answered",
+      "text3": "Someone found your answer helpful",
+      "text4": "Someone has followed you",
+      "text5": "The question was deleted for violating the rules",
+      "text6": "The answer was deleted for violating the rules",
+      "text7": "Someone liked your question"
+    }    
+  },
+
+  "Terms_of_use": {
+    "head": "Terms of Use",
+    "texts": {
+      "head": {
+        "one": "1. Introduction",
+        "two": "2. Terms of Use",
+        "three": "3. Site Rules and Consequences of Violations",
+        "four": "4. Copyright",
+        "five": "5. Privacy",
+        "six": "6. Limitation of Liability",
+        "seven": "7. Changes and Updates",
+        "eight": "8. Contacts",
+        "nine": "9. Final Provisions"
+      },
+
+      "other": {
+        "one_one": "1.1. Our goal is to help you with your questions. Questions can be asked on any topic: from homework to help with complex program code.",
+        "one_two": "1.2. We provide you with an unlimited number of questions of any length. Your questions will be answered by other users. You can attach photos for the question or the result you want to achieve. You can also answer questions or search for them, earn rewards for completing tasks, save questions, and change the site language.",
+
+        "two_one": "2.1. Our site is designed to be used as a means of providing information to solve problems, help in difficult situations, and more.",
+
+        "three_one": "3.1. Politics is prohibited. If you violate this rule, you will be permanently banned.",
+        "three_two": "3.2. It is forbidden to insult people for their nationality, characteristics, hobbies, and more. If you violate this rule, you will be banned for one week, and after a repeat violation, you will be permanently banned.",
+        "three_three": "3.3. It is forbidden to threaten users physically and morally. If you violate this rule, you will be permanently banned.",
+        "three_four": "3.4. It is forbidden to use links that redirect to other sites with advertisements. For violating this rule, you will be banned for a week. For a repeat violation, you will be permanently banned.",
+        "three_five": "3.5. For a false complaint against a user, you will be banned for a week. For serious false accusations, you will be permanently banned.",
+        "three_six": "3.6. It is forbidden to use obscene language in questions/answers and profiles, insult people, or impersonate someone else. For this, you will be banned.",
+
+        "four_one": "4.1. It is forbidden to use any references from the site Zapyt (All rights reserved. This is indicated by the line at the bottom of the page).",
+        "four_two": "4.1. It is forbidden to claim someone else's content or identity as your own. For this, you will be banned.",
+
+        "five_one": "5.1. We collect only the necessary information about you to improve our site and its security. We collect data such as links you use for questions or answers, the number of complaints, and information in the 'Profile' section. They will be fully protected from third parties who do not have access to your account.",
+        
+        "six_one": "6.1. We are not responsible for the leakage of your login information due to your carelessness.",
+        "six_two": "6.2. We are not responsible if you did not read this page during registration or when the rules are updated.",
+        
+        "seven_one": "7.1. We may make changes to the Terms of Use at any time. Therefore, we ask you to visit this page regularly to study updates.",
+
+        "eight_one": "8.1. If you find an error, inaccuracies on the site, encounter any problems, or have any questions, write to us at",
+        "eight_two": "8.2. If you want to cooperate, write to us at",
+        "eight_three": "8.3. If you want to follow updates before others, then join our Telegram channel",
+        "eight_four": "8.4. We also regularly post on our Instagram",
+
+        "nine_one": "9.1. All information provided on the site is legally binding for all users. When registering, you confirm that you have read this page and agree to all the terms."
+      }
+    }
+  },
+
+  "Footer": {
+    "logo": {
+      "text": "Forum"  
+    },
+
+    "nav": {
+      "about_us": "About Us",
+      "profile": "Profile",
+      "saves": "Saved",
+      "updates": "Updates",
+      "prizes": "Prizes"
+    },
+
+    "rights": "© 2024-2027. All rights reserved"
+  }
+}

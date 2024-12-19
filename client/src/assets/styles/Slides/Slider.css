@@ -1,0 +1,20 @@
+#Slider {  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+  #Slides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120%;
+
+    margin: 60px 0px;     
+  }
+    .slide {
+      width: 100%;
+      flex-shrink: 0;
+    }

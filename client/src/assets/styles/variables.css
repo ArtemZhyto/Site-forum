@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Klyakson;
+  src: url("../fonts/Klyakson.otf");
+  font-weight: 100px;
+}
+@font-face {
+  font-family: Klukva;
+  src: url("../fonts/Klukva.otf");
+  font-weight: 100px;
+}
+@font-face {
+  font-family: Stengazeta;
+  src: url("../fonts/Stengazeta.ttf");
+  font-weight: 100px;
+}
+
+:root {
+  --back: #2E2C2F;
+  --block: #272527;
+  --sp_text: #02C39A;
+  --sp_text_d: #00896C;
+  --red: #F32020;
+  --redd: #A01515;
+  --ssp_text: #20A4F3;
+  --dssp_text: #1577B1;
+  --wh: #B3B3B3;
+  --gr: #616161;
+
+  --kly: "Klyakson";
+  --klu: "Klukva";
+  --stg: "Stengazeta";
+
+  --text_s: 20px 20px 3px var(--block);
+  --back_s: 0 0 20px var(--sp_text);
+  --block_s: 0px 0px 3px var(--block);
+}

@@ -1,0 +1,143 @@
+#Regist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  margin: 177px 0px;
+
+  width: 100%;
+
+  background-image: url("../../multimedia/images/backgrounds/R_L.svg");
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+  #Regist__not-regist {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+  }
+  
+  #Regist__block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 525px;
+    width: 100%;
+    min-height: 575px;
+
+    border-radius: 50px;
+
+    background-color: var(--block);
+
+    filter: drop-shadow(var(--block_s));
+  }
+    #block__header {
+      font-family: var(--stg);
+      font-size: 48px;
+      font-weight: 100;
+      color: white;
+
+      margin-top: 60px;
+      margin-bottom: 15px;
+    }
+
+    #block__inputs {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      gap: 17.5px;
+
+      width: 100%;
+    }
+      .block__input {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      
+        max-width: 472px;
+        width: 100%;
+
+        font-family: var(--kly);
+        font-size: 22px;
+        font-weight: 100;
+        color: white;
+
+        resize: none;
+
+        outline: none;
+        border-radius: 15px;
+        border: 1px rgba(255, 255, 255, 0.25) solid;
+
+        padding: 25px 20px;
+
+        background: none;
+      }
+        .block__input::placeholder {
+          font-family: var(--klu);
+          font-size: 28px;
+          font-weight: 100;
+          color: var(--gr);
+        }
+    #block__main-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      margin-top: 37.5px;
+    }
+      #bmb__terms {
+        position: relative;
+        top: 3px;
+        
+        font-family: var(--stg);
+        font-size: 24px;
+        font-weight: 100;
+        color: white;
+
+        text-decoration: none;
+      }
+        #bmb__terms:hover {
+          color: var(--wh);
+          transition: color 0.3s ease;
+        }
+
+      #bmb__line {
+        width: 1px;
+        height: 30px;
+
+        margin-left: 11px;
+        margin-right: 11px;
+
+        background-color: white;
+      }
+    #block__log {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      margin-top: 32.5px;
+      margin-bottom: 60px;
+    }
+      #bl__header {
+        font-family: var(--klu);
+        font-size: 28px;
+        font-weight: 100;
+        color: white;
+
+        margin-right: 12.5px;
+      }

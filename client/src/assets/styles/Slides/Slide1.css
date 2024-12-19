@@ -1,0 +1,51 @@
+#Greetings {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+  #Greetings__img {
+    max-width: 750px;
+    width: 100%;
+
+    filter: drop-shadow(var(--back_s));
+
+    user-select: none;
+    pointer-events: none;
+  }
+
+  #Greetings__texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    
+    margin-left: 221px;
+
+    z-index: 1;
+
+    filter: drop-shadow(var(--text_s));
+  }
+    #text1 {
+      font-family: var(--kly);
+      font-size: 105px;
+      font-weight: 100;
+
+      max-width: max-content;
+      width: 100%;
+
+      color: white;
+    }
+      .text1__green {
+        color: var(--sp_text);
+      }
+    #text2 {
+      font-family: var(--klu);
+      font-size: 36px;
+      font-weight: 100;
+
+      color: white;
+    }

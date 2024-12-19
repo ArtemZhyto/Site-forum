@@ -1,0 +1,113 @@
+#login {
+  text-decoration: none;
+}
+
+#BlueBtn {
+  border: 2px solid var(--ssp_text);
+
+  background: none;
+
+  color: var(--ssp_text);
+
+  padding: 4.84px 8.8px;
+
+  width: max-content;
+
+  text-decoration: none;
+
+  transition: color 0.3s ease;
+ 
+  cursor: pointer;
+  user-select: none;
+}
+  #BlueBtn__text {
+    position: relative;
+    top: 2px;
+
+    font-family: var(--stg);
+    font-size: 22px;
+  
+    text-decoration: none;
+  
+    color: var(--ssp_text);
+
+    transition: color 0.15s ease;
+
+    cursor: pointer;
+  }
+
+  #BlueBtn:hover {
+    transition: 0.4s;
+    border-color: var(--dssp_text);
+  }
+    #BlueBtn:hover #BlueBtn__text {
+      transition: 0.4s;
+      color: var(--dssp_text);
+    }
+
+    .red-btn_back {
+      border: 2px solid var(--red);
+
+      background: none;
+    
+      padding: 4.84px 8.8px;
+    
+      width: max-content;
+    
+      text-decoration: none;
+     
+      cursor: pointer;
+      user-select: none;
+    }
+    
+    .red-btn_front {
+      position: relative;
+      top: 2px;
+  
+      font-family: var(--stg);
+      font-size: 22px;
+    
+      text-decoration: none;
+    
+      color: var(--red);
+  
+      cursor: pointer;
+    }
+      .red-btn_back:hover {
+        transition: 0.4s;
+        border-color: var(--redd);
+      }
+        .red-btn_back:hover .red-btn_front {
+          transition: 0.4s;
+          color: var(--redd);
+        }
+    .grey-btn_back {
+      border: 2px solid var(--gr);
+
+      background: none;
+
+      color: var(--gr);
+    
+      padding: 4.84px 8.8px;
+    
+      width: max-content;
+    
+      text-decoration: none;
+      user-select: none;
+
+      transition: color 0.3s ease;
+    }
+
+    .grey-btn_front {
+      position: relative;
+      top: 2px;
+  
+      font-family: var(--stg);
+      font-size: 22px;
+    
+      text-decoration: none;
+    
+      color: var(--gr);
+
+      transition: color 0.15s ease;
+    }

@@ -1,0 +1,12 @@
+#SearchU {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  row-gap: 135px;
+
+  width: 100%;
+
+  padding: 200px 266.5px 150px;
+}

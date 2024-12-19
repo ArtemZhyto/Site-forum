@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+  width: max-content;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: #2E2C2F;
+}
+  #page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    min-height: 100vh;
+  }

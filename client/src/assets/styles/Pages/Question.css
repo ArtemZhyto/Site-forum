@@ -1,0 +1,68 @@
+#Question {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+
+  padding: 100px 5.208% 100px;
+}
+  #Question__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    width: 100%;
+
+    padding-bottom: 25px;
+  }
+    #Question__header {
+      font-family: var(--stg);
+      font-size: 72px;
+      font-weight: 100;
+      color: white;
+    }
+
+    #Question__text {
+      font-family: var(--klu);
+      font-size: 32px;
+      font-weight: 100;
+      color: white;
+
+      width: 100%;
+    }
+
+  #Answer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;  
+   
+    background-color: var(--block);
+    filter: drop-shadow(var(--block_s));
+
+    border-radius: 25px;
+
+    padding: 25px;
+    margin-top: 75px;
+
+    width: 100%;
+  }
+    #Answer__header {
+      display: flex;
+      justify-content: start;
+      align-items: start;
+    }
+      #header__userName {
+        font-family: var(--stg);
+        font-size: 54px;
+        font-weight: 100;
+        color: white;
+      }
+
+    #Answer__text {
+      font-family: var(--klu);
+      font-size: 28px;
+      font-weight: 100;
+      color: white;
+    }
