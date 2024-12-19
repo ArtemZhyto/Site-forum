@@ -31,21 +31,5 @@ For run server part:
 
 
 
-##### ADDITIONAL INFORMATION #####
-If you will find some bugs or error please write us by mail JeRiad_ua_support@gmail.com
-If you want to cooperate or have suggestions please write to us at JeRiad_ua_offers@gmail.com.
-
-
-
-##### OUR SOCIAL MEDIA #####
-Offers:
-Support:
-GitHub:
-Instagram:
-Telegram support:
-Telegram chanel:
-
-
-
 ##### THANK YOU! #####
 Thank you for your desire to help with updates or adding new functionality!
